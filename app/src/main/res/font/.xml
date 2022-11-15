@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:fontProviderAuthority=""
+        app:fontProviderPackage=""
+        app:fontProviderQuery="adamina"
+        app:fontProviderCerts="@array/_certs"
+    tools:ignore="FontValidation,MissingDefaultResource">
+</font-family>

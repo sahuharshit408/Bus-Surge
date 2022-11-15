@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager">
-    <output url="file://$PROJECT_DIR$/out" />
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/drawable/btnshape.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/drawable/currentlocation.xml" value="0.1495" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/drawable/finallocation.xml" value="0.1495" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/drawable/gmailsigninbtnshape.xml" value="0.1495" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/drawable/ic_baseline_directions_bus_24.xml" value="0.1495" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.121" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1495" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.121" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/drawable/icl_curve_tablayout.xml" value="0.1495" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/drawable/logintopshape.xml" value="0.1495" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/drawable/mainmenushape.xml" value="0.136" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/drawable/phonesigninbtnshape.xml" value="0.1495" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/drawable/profile.xml" value="0.1495" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/drawable/textbox.xml" value="0.1495" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/drawable/textboxshape.xml" value="0.1495" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/drawable/titleshape.xml" value="0.1495" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/layout/activity_bar_code_scanner.xml" value="0.1" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/layout/activity_full_map.xml" value="0.19701086956521738" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/layout/activity_main_menu.xml" value="0.19701086956521738" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/layout/activity_scanner_view.xml" value="0.1" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/layout/activity_user_signup.xml" value="0.19701086956521738" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/layout/fragment_ftab1.xml" value="0.19701086956521738" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/layout/fragment_ftab2.xml" value="0.19701086956521738" />
+        <entry key="..\:/Users/sahuh/AndroidStudioProjects/BusSurge/app/src/main/res/layout/fragment_ftab3.xml" value="0.19701086956521738" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
   </component>
 </project>

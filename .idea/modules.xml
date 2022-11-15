@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Bus-Surge.iml" filepath="$PROJECT_DIR$/.idea/Bus-Surge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bus_Surge.iml" filepath="$PROJECT_DIR$/.idea/modules/Bus_Surge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Bus_Surge.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Bus_Surge.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Bus_Surge.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Bus_Surge.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Bus_Surge.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Bus_Surge.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Bus_Surge.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Bus_Surge.app.unitTest.iml" />
     </modules>
   </component>
 </project>

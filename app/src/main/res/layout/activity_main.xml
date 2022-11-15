@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white"
+    android:id="@+id/mainFrame">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingConstraints"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_gravity="top"
+        android:background="@drawable/titleshape"
+        android:orientation="vertical"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <LinearLayout
+            android:id="@+id/titlecontainer"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="2dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/profile"
+                android:foregroundGravity="center_vertical"
+                android:padding="5dp"
+                android:paddingVertical="8dp"
+                android:paddingStart="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+
+                app:srcCompat="@drawable/ic_baseline_person_24" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="BUS SURGE"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="38sp"
+                android:textStyle="bold"
+                android:layout_marginRight="60dp"/>
+        </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp"
+            android:background="@drawable/mainmenushape"
+            app:layout_constraintTop_toBottomOf="@id/titlecontainer"
+            app:layout_constraintLeft_toRightOf="@id/mainFrame"
+            android:orientation="vertical"
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="25dp">
+
+                <ImageView
+                    android:layout_width="32sp"
+                    android:layout_height="32sp"
+                    android:background="@drawable/currentlocation"
+                    android:padding="8dp"
+                    android:layout_gravity="center">
+
+                </ImageView>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/textbox"
+                    android:gravity="center_vertical"
+                    android:hint="Your Current Location"
+                    android:padding="10dp"
+                    android:paddingHorizontal="8dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/HintTextGray"
+                    android:textSize="22sp">
+
+                </EditText>
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="32sp"
+                android:layout_height="32sp"
+                android:background="@drawable/threedots1"
+                android:layout_marginTop="3dp"
+                >
+
+            </ImageView>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp">
+
+                <ImageView
+                    android:layout_width="32sp"
+                    android:layout_height="32sp"
+                    android:background="@drawable/finallocation"
+                    android:padding="8dp"
+                    android:layout_gravity="center">
+
+                </ImageView>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/textbox"
+                    android:gravity="center_vertical"
+                    android:hint="Enter Your Destinaiton"
+                    android:padding="10dp"
+                    android:paddingHorizontal="8dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/HintTextGray"
+                    android:textSize="22sp">
+
+                </EditText>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Bus Stops Near You"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/seeAll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="See All"
+                    android:textColor="@color/purple"
+                    android:textStyle="bold"
+                    android:gravity="end"
+                    android:paddingRight="5dp"
+                    android:clickable="true"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="12dp">
+
+
+                <ImageView
+                    android:id="@+id/bsstopimg"
+                    android:layout_width="14dp"
+                    android:layout_height="32dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/busstopicon" />
+
+                <TextView
+                    android:id="@+id/nextbusstop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Piplani Petrol Pump"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:paddingLeft="8dp"
+                    />
+
+                <TextView
+                    android:id="@+id/busstopdist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="6.4 KM"
+                    android:textSize="16sp"
+                    android:textColor="@color/HintTextGray"
+                    android:gravity="end"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"
+                android:text="Next Buses"
+                android:textSize="18sp"
+                android:textColor="@color/darkGray"
+                android:background="@drawable/textboxshape"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="14dp"
+                    android:layout_height="32dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_baseline_directions_bus_24" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="D17"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:paddingLeft="8dp"/>
+
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="In 12 mins"
+                    android:textSize="16sp"
+                    android:textColor="@color/HintTextGray"
+                    android:gravity="end" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="14dp"
+                    android:layout_height="32dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_baseline_directions_bus_24" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="S14"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:paddingLeft="8dp"/>
+
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="In 18 mins"
+                    android:textSize="16sp"
+                    android:textColor="@color/HintTextGray"
+                    android:gravity="end" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/seeAllBuses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="See All Buses"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                android:clickable="true">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Buses Around You"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                >
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mapview">
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:id="@+id/google_map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:id="@+id/scan1"
+                android:background="@drawable/btnshape"
+                android:clickable="true"
+                android:text="SCAN"
+                android:textSize="24sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+
+            </TextView>
+
+
+
+
+
+
+        </LinearLayout>
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+</RelativeLayout>

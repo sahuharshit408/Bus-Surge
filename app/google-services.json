@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "753600121245",
+    "project_id": "bus-surge-14e17",
+    "storage_bucket": "bus-surge-14e17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753600121245:android:5d599a2381acfd0be78774",
+        "android_client_info": {
+          "package_name": "my.app.bussurge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753600121245-2lggts8v7d652c5rthhsb8qn9vi78cp3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "my.app.bussurge",
+            "certificate_hash": "fa8a91ece1ebefa087339f95fa34ef9d240e4535"
+          }
+        },
+        {
+          "client_id": "753600121245-ngivveiflu9sk5vat9jb6mvlb9f57mnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNIWVL_J4ddMlWHu-0r1hyGD3i_1u3SNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753600121245-ngivveiflu9sk5vat9jb6mvlb9f57mnb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
